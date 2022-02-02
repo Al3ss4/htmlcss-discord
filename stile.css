@@ -3,6 +3,10 @@
     padding: 0;
     box-sizing: border-box;
 }
+body
+{
+    font-family: Whitney,Helvetica Neue,Helvetica,Arial,sans-serif;
+}
 .container{
     height: 80px;
     width: auto;
@@ -17,9 +21,9 @@
     top: 30%;
     left: 20%;
 }
-.menu:hover{
+/*.menu:hover{
     cursor: pointer;  
-}
+}*/
 .menu nav{
     text-align: center;
     padding: 30px;
@@ -35,9 +39,9 @@
     font-size: 15px;
     text-decoration: none;
 }
-.menu nav ul li a:hover{
-    text-decoration: 1px underline;
-    color: white;
+.menu nav ul li:hover{
+    color: cadetblue;
+    cursor: pointer;
 }
 .button{
     border-radius: 40px;
@@ -55,4 +59,61 @@
 }
 .button:hover{
     color:cadetblue
+}
+.btm-hdr{
+    background-image: url(img/jumbo.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+    position: relative;
+}
+.title{
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+.title .text h1{
+    font-size: 50px;
+    margin-bottom:20px ;
+}
+.title .text p{
+    font-size: 18px;
+    line-height: 2;
+}
+.btn-white{
+    border-radius: 28px;
+    background-color: white;
+    padding: 16px 32px;
+    border: none;
+    text-decoration: none;
+    font-size: 14px;
+    color: black;
+    position: absolute;
+    bottom: 18%;
+    left: 37%;
+    cursor: pointer;
+    font-weight: bold;
+}
+.btn-black{
+    border-radius: 28px;
+    background-color: black;
+    padding: 16px 32px;
+    border: none;
+    text-decoration: none;
+    font-size: 14px;
+    color: white;
+    position: absolute;
+    bottom: 18%;
+    left: 48%;
+    cursor: pointer;
+    font-weight: bold;
+}
+.btn-black:hover{
+    color: turquoise;
+}
+.btn-white:hover{
+    color: turquoise;
 }
