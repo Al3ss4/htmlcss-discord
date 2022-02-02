@@ -152,6 +152,7 @@ body
 .terza-sez{
     position: relative;
     margin-top: 300px;
+    margin-bottom: 50%;
 }
 .text4{
     position:absolute;
@@ -162,5 +163,148 @@ body
 .item4-big{
     position: absolute;
     right: 26%; 
-
+}
+.star-sez{
+    position: relative;
+    padding-bottom: 20px;
+}
+.btn-blue{
+    border-radius: 28px;
+    background-color: cadetblue;
+    padding: 16px 32px;
+    border: none;
+    text-decoration: none;
+    font-size: 14px;
+    color: black;
+    position: absolute;
+    bottom: -800%;
+    left: 46%;
+    cursor: pointer;
+    font-weight: bold;
+}
+.stelle{
+    position: absolute;
+    right: 35%;
+    bottom: 0;
+}
+.text5{
+    position:absolute;
+    right: 39%;
+    top: 30%;
+    text-align: center;
+}
+.text6 h3{
+    font-size: 25px; 
+}
+.container-footer{
+    height: 600px;
+    width: 100%;
+    background-color: #23272a;
+    position: relative;
+    margin-top: 100px;
+}
+.loghi h2{
+    font-size: 28px;
+    font-weight: bold;
+    color: #7289da;
+    width: 70%;
+    margin-bottom: 15px;
+}
+.loghi span{
+    font-size: 14px;
+    color: white;
+}
+#ita{
+    height: 20px;
+}
+.loghi{
+    position: absolute;
+    top: 10%;
+    left: 20%;
+}
+.loghi nav{
+    padding: 10px;
+}
+.loghi nav ul li{
+    display: inline-block;
+    font-weight: bold;
+    padding: 0 10px;
+    color: white;
+}
+#ita:hover{
+    cursor: pointer;
+}
+.loghi span:hover{
+    cursor: pointer;
+}
+.loghi nav ul li:hover{
+    cursor: pointer;
+}
+.prima-colonna{
+    position: absolute;
+    top: 11%;
+    left: 40%;
+}
+.position nav ul li a{
+    text-decoration: none;
+    font-size: 14px;
+    color: white;
+}
+.position nav ul li{
+    list-style: none;
+    margin-bottom: 10px;
+}
+#titolo{
+    color: #7289da;
+    text-decoration: none;
+}
+.position nav ul li a:hover{
+    text-decoration: 1px underline;
+}
+.seconda-colonna{
+    position: absolute;
+    top: 11%;
+    left: 52%;
+}
+.terza-colonna{
+    position: absolute;
+    top: 11%;
+    left: 64%;
+}
+.quarta-colonna{
+    position: absolute;
+    top: 11%;
+    left: 76%;
+}
+.logo2{
+    position: absolute;
+    bottom: 10%;
+    left: 20%;
+}
+.logo2:hover{
+    cursor: pointer;
+}
+.button2{
+    border-radius: 40px;
+    background-color: #8ea1e1;
+    font-size: 14px;
+    padding: 7px 16px;
+    border: none;
+    text-decoration: none;
+    font-size: 14px;
+    color: white;
+    position: absolute;
+    bottom: 10%;
+    right: 20%;
+    cursor: pointer;
+}
+.button2:hover{
+    color:cadetblue;
+}
+.bordo{
+    border-bottom: 1px solid #8ea1e1;
+    position: absolute;
+    bottom: 20%;
+    left: 15%;
+    width: 70%;
 }
