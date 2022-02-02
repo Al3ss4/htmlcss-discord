@@ -167,6 +167,7 @@ body
 .star-sez{
     position: relative;
     padding-bottom: 20px;
+    height: 100px;
 }
 .btn-blue{
     border-radius: 28px;
@@ -177,7 +178,7 @@ body
     font-size: 14px;
     color: black;
     position: absolute;
-    bottom: -800%;
+    bottom: 0%;
     left: 46%;
     cursor: pointer;
     font-weight: bold;
@@ -185,12 +186,12 @@ body
 .stelle{
     position: absolute;
     right: 35%;
-    bottom: 0;
+    bottom: 72px;
 }
 .text5{
     position:absolute;
     right: 39%;
-    top: 30%;
+    top: 0%;
     text-align: center;
 }
 .text6 h3{
