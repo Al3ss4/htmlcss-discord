@@ -10,7 +10,7 @@ body
 .container{
     height: 80px;
     width: auto;
-    background-color: #255ee9;
+    background-color: rgb(49, 97, 224);
     position: relative;
 }
 .box{
@@ -148,4 +148,19 @@ body
 .item2{
     padding-top: 50px;
     padding-left: 45%;   
+}
+.terza-sez{
+    position: relative;
+    margin-top: 300px;
+}
+.text4{
+    position:absolute;
+    right: 6%;
+    bottom: 0;
+    text-align: center;
+}
+.item4-big{
+    position: absolute;
+    right: 26%; 
+
 }
