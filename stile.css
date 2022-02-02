@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    height: 80px;
+    width: auto;
+    background-color: #255ee9;
+    position: relative;
+}
+.box{
+    margin:0 80px;
+}
+.logo{
+    position: absolute;
+    top: 30%;
+    left: 20%;
+}
+.menu:hover{
+    cursor: pointer;  
+}
+.menu nav{
+    text-align: center;
+    padding: 30px;
+}
+.menu nav ul li{
+    display: inline-block;
+    font-weight: bold;
+    padding: 0 20px;
+    color: white;
+}
+.menu nav ul li a{
+    color: white;
+    font-size: 15px;
+    text-decoration: none;
+}
+.menu nav ul li a:hover{
+    text-decoration: 1px underline;
+    color: white;
+}
+.button{
+    border-radius: 40px;
+    background-color: white;
+    font-size:14px ;
+    padding: 7px 16px;
+    border: none;
+    text-decoration: none;
+    font-size:14px;
+    color: black;
+    position: absolute;
+    top: 30%;
+    right: 20%;
+    cursor: pointer;
+}
+.button:hover{
+    color:cadetblue
+}
